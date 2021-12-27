@@ -1,0 +1,10 @@
+Intégré un positionnement aléatoire selon x de la balle au démarrage
+
+Output : Left or Right
+
+Input:
+ - position de la balle : x et y
+ - distance verticale entre la balle et la raquette : delta_y
+ - distance horizontale entre la balle et le coin gauche de la raquette delta_x_left
+ - distance horizontale entre la balle et le coin droit de la raquette delta_x_right
+ - vecteur de la balle ?

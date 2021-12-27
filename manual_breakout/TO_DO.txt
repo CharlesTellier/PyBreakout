@@ -1,0 +1,15 @@
+Créer l'écran de jeu 16/9 1280 x 720
+
+4 classes
+"Racquet" qui gère la raquette permettant de renvoyer la balle
+__init__ -> Placement x, y et taille
+draw -> Dessine la raquette à l'écran
+move bouge la raquette à droite ou à gauche
+
+"ball" qui permet de casser les briques
+"brick" les briques à casser
+"wall" l'ensemble des briques, gestion du positionnement
+
+12 vecteurs de déplacement possibles :
+(x,y)
+((1,2),(1,1),(2,1),(2,-1),(1,-1),(1,-2),(-1,-2),(-1,-1),(-2,-1),(-2,1),(-1,1),(-1,2))
